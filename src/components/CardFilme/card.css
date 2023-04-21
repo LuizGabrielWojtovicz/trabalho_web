@@ -1,0 +1,24 @@
+.movie-col {
+  width: 100%;
+  min-width: 200px;
+  max-width: 200px;
+  min-height: 100%;
+  overflow: hidden;
+}
+
+.movie-col .card, .movie-col .card-body {
+  min-height: 100%;
+}
+
+.movie-col .card-body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.movie-list {
+  gap: 12px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
